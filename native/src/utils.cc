@@ -19,7 +19,16 @@ string za::merge_string(const string &s_lhs, const string &s_rhs) noexcept
 za::Pair<za::Pair<int>> za::most_similar_string(const u16string &s_lhs, const u16string &s_rhs) noexcept
 {
     za::Pair<za::Pair<int>> p;
-    
+    uint16_t score = 0, max_score = 0;
+    bool contagius = false;
+    for (size_t i = 0; i < min<size_t>(s_rhs.size(), s_lhs.size()); i++)
+    {
+        for (size_t j = 0; j <= i; j++)
+        {
+            if (s_rhs[])
+        }
+        
+    }
     return p;
 }
 
