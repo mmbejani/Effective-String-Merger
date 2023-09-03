@@ -1,6 +1,5 @@
 #include <string>
 #include <locale>
-#include <ranges>
 #include <codecvt>
 #include <pybind11/pybind11.h>
 
